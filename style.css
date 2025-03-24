@@ -1,0 +1,223 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  background: linear-gradient(to right, #4e73df, #224abe);
+  color: #fff;
+  padding: 10px 10px;
+  text-align: center;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sign-in-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue color, you can change to your desired color */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.sign-in-button:hover {
+  background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+/* Hero section styles */
+.hero {
+  background-image: url("https://thumbs.dreamstime.com/b/creative-website-banner-ai-technology-abstract-futuristic-style-over-dark-blue-background-194868261.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* About section styles */
+.about {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+}
+
+/*button  */
+
+.custom-button {
+  display: inline-block;
+  padding: 10px 80px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 130px;
+  margin-bottom: 100px;
+}
+
+.custom-button:hover {
+  background-color: #2980b9;
+}
+
+/* Optional: Add styles for different button sizes */
+.small-button {
+  font-size: 12px;
+  padding: 8px 16px;
+}
+
+.large-button {
+  font-size: 18px;
+  padding: 12px 24px;
+}
+
+/* AI Cards section styles */
+.ai-cards .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 20px;
+  align-items: flex-end; /* Align items to the bottom */
+}
+
+.ai-cards .card {
+  width: calc(
+    33.33% - 20px
+  ); /* Adjust width and margins to fit three cards in a row with space between */
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; /* Arrange content in a column */
+}
+
+.ai-cards .card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Fix the image to the top */
+}
+
+.ai-cards .card h3 {
+  margin: 10px 0 auto; /* Align h3 text to the bottom of the card */
+}
+
+/* Section1 */
+.section1 {
+  background-color: #130764; /* Light gray background */
+  padding: 50px 0;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-top: 150px;
+}
+
+.section1 h2 {
+  font-size: 36px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.section1 p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: white;
+}
+
+/* Footer styles */
+
+footer {
+  background-color: darkblue;
+  color: #fff;
+  padding: 30px 0;
+  margin-top: 200px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  margin-bottom: 20px;
+}
+
+.footer-section h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  color: black;
+  line-height: 1.6;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #f1c40f;
+}
+
+.legal {
+  text-align: center;
+  margin-top: 20px;
+}

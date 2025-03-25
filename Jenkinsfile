@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = 'jeel1052/jenkins-docker-app' // Replace with your Docker Hub repository
+        DOCKER_IMAGE = 'jeel1052/jenkins-docker' // Replace with your Docker Hub repository
     }
 
     stages {

@@ -1,22 +1,20 @@
-# Use an official Node.js runtime as a parent image
-FROM node:18-alpine
+# Use the official Node.js image
+FROM node:18
 
-# Set the working directory inside the container
+# Set the working directory
 WORKDIR /app
 
-# Copy package.json and package-lock.json before copying the rest of the files
+# Copy package.json and package-lock.json first (if available)
 COPY package*.json ./
 
 # Install dependencies
-RUN npm install
+RUN npm install  # or RUN npm ci
 
-RUN npm install react-scripts
-
-# Copy the entire application source code
+# Copy the rest of the app files
 COPY . .
 
-# Expose the application port (modify if needed)
+# Expose port 3000
 EXPOSE 3000
 
-# Command to run the application
+# Start the React app
 CMD ["npm", "start"]
